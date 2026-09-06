@@ -330,11 +330,20 @@ section {
 .photo-card {
   position: relative;
   min-height: 18rem;
+  aspect-ratio: 2 / 3;
   border: 1px solid var(--border);
   border-radius: var(--radius-small);
   background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(34,28,24,0.04));
   overflow: hidden;
   box-shadow: 0 12px 28px rgba(29, 24, 20, 0.04);
+}
+
+.photo-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .photo-card::before {
@@ -349,9 +358,6 @@ section {
 }
 
 .photo-running img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   object-position: 28% center;
 }
 
@@ -360,11 +366,6 @@ section {
 }
 
 .photo-travel img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   object-position: 20% 60%;
 }
 
@@ -373,11 +374,6 @@ section {
 }
 
 .photo-photography img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   object-position: 50% 55%;
 }
 
@@ -386,11 +382,6 @@ section {
 }
 
 .photo-dallas img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   object-position: 50% 46%;
 }
 
