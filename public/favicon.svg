@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title">
+  <title>Clint Nail</title>
+  <rect width="180" height="180" rx="38" fill="#1f1d1a"/>
+  <path d="M76 54a38 38 0 1 0 0 72" fill="none" stroke="#f5f1ea" stroke-linecap="round" stroke-width="16"/>
+  <path d="M91 126V54l39 72V54" fill="none" stroke="#f5f1ea" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+  <path d="M151 45v90" fill="none" stroke="#7a5b3d" stroke-linecap="round" stroke-width="9"/>
+</svg>
