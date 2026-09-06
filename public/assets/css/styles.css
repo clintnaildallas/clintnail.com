@@ -539,6 +539,23 @@ section {
     grid-template-columns: 1fr;
   }
 
+  .contact-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.35rem;
+  }
+
+  .contact-item > div,
+  .contact-item a,
+  .contact-item address {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .contact-item a {
+    width: 100%;
+  }
+
   .feature-card {
     min-height: 18rem;
   }
