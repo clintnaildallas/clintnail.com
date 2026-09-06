@@ -1,6 +1,6 @@
 # clintnail.com
 
-This repository powers the public website for Clint Nail at clintnail.com.
+This repository powers the public website for Clint Nail at clintnail.com, also known as Clinton Nail. 
 
 The site is a lightweight static personal and professional website focused on identity, technology, cloud architecture, and life in Dallas. It is designed to be a trustworthy digital home for Clint Nail without leaning into résumé-style content, generic portfolio patterns, or marketing-heavy branding.
 
