@@ -321,6 +321,34 @@ section {
   margin-bottom: 0;
 }
 
+.recognition-card {
+  max-width: 48rem;
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--border);
+}
+
+.recognition-card .eyebrow {
+  margin-bottom: 0.85rem;
+}
+
+.recognition-card h3 {
+  font-size: clamp(1.25rem, 1vw + 1rem, 1.8rem);
+}
+
+.recognition-card p:not(.eyebrow) {
+  max-width: 42rem;
+  margin: 0.9rem 0 1rem;
+  color: var(--muted);
+}
+
+.recognition-link {
+  display: inline-flex;
+  color: var(--muted-strong);
+  border-bottom: 1px solid var(--border-strong);
+  padding-bottom: 0.1rem;
+}
+
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
