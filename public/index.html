@@ -29,6 +29,40 @@
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script defer src="assets/js/main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://clintnail.com/#person",
+            "name": "Clint Nail",
+            "url": "https://clintnail.com/",
+            "jobTitle": "Cloud Architect",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Dallas",
+              "addressRegion": "Texas"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/clintnail/",
+              "https://github.com/clintnaildallas",
+              "https://www.instagram.com/clintatsunset/",
+              "https://www.facebook.com/clintonnail",
+              "https://learn.microsoft.com/en-us/users/clintnail/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://clintnail.com/#website",
+            "url": "https://clintnail.com/",
+            "publisher": {
+              "@id": "https://clintnail.com/#person"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -290,43 +324,5 @@
       </div>
     </footer>
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Clint Nail",
-        "alternateName": "Clinton Nail",
-        "url": "https://clintnail.com/",
-        "jobTitle": "Cloud Architect",
-        "email": "mailto:clintnaildallas@gmail.com",
-        "telephone": "+1-469-554-9503",
-        "address": {
-          "@type": "PostalAddress",
-          "name": "Mailing address",
-          "streetAddress": "3839 McKinney Avenue, Suite 155-2027",
-          "addressLocality": "Dallas",
-          "addressRegion": "Texas",
-          "postalCode": "75204",
-          "addressCountry": "US"
-        },
-        "subjectOf": {
-          "@type": "NewsArticle",
-          "headline": "Concurrency Inc. Achieves Microsoft Windows Virtual Desktop Specialization, Setting New Standards in Cloud Expertise",
-          "url": "https://concurrency.com/news/concurrency-inc-achieves-microsoft-windows-virtual-desktop-specialization-setting-new-standards-in-cloud-expertise/",
-          "datePublished": "2023-12-13",
-          "publisher": {
-            "@type": "Organization",
-            "name": "24-7PressRelease"
-          }
-        },
-        "sameAs": [
-          "https://www.linkedin.com/in/clintnail/",
-          "https://www.instagram.com/clintatsunset/",
-          "https://www.facebook.com/clintonnail",
-          "https://github.com/clintnaildallas",
-          "https://learn.microsoft.com/en-us/users/clintnail/"
-        ]
-      }
-    </script>
   </body>
 </html>
